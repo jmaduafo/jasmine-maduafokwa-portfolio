@@ -42,7 +42,7 @@ Hamburger menu on click:
 
 ## Credits
 
-The images aren't mine. I used pexels.com for the pictures, and the profile pic is also not me as well. I wanted to use a photo that melds well with the rest of the site. As of now, I don't have any good pictures that I can add into my site, but I plan to add my own picture while I continue to work on my portfolio.
+The images aren't mine. I used pexels.com for the pictures, and the profile pic is also not me as well. I wanted to use a photo that molds well with the rest of the site. As of now, I don't have any good pictures that I can add into my site, but I plan to add my own picture while I continue to work on my portfolio.
 
 I have used Freecodecamp and Codecademy in the past to help to advance my knowledge on the usage of HTML, CSS, Javascript and other frontend languages and have watched videos by professional developers such as Youtubers Web Dev Simplified, Kevin Powell, and Easy Tutorials for extra learning. For web design inspiration, I've browsed websites like awwwards.com, Behance, Dribble, and watched Youtube videos by Futur to learn better web design practices. Learning from all these people and sites have helped me become a better developer and designer, and I still have a lot to learn in my journey. 
 
