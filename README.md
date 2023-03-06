@@ -14,14 +14,32 @@ Link to deployed application:
 
 https://jmaduafo.github.io/jasmine-maduafokwa-portfolio/portfolio/
 
-Provide instructions and examples for use. Include screenshots as needed.
+You can navigate throughout using the header links, or if working in mobile or iPad width, there is a hamburger menu that can be used to navigate as well. As mentioned above, the site is fully responsive.
+
+This is how the site looks in desktop view for each section:
+
+![alt text](portfolio/assets/images/portfolio-desktop-width.png)
+
+![alt text](portfolio/assets/images/portfolio-desktop-width2.png)
+
+![alt text](portfolio/assets/images/portfolio-desktop-width3.png)
+
+![alt text](portfolio/assets/images/portfolio-desktop-width4.png)
+
+This is how the site looks in mobile view for each section:
+![alt text](portfolio/assets/images/portfolio-mobile-width.png)
+
+![alt text](portfolio/assets/images/portfolio-mobile-width2.png)
+
+![alt text](portfolio/assets/images/portfolio-mobile-width3.png)
+
+![alt text](portfolio/assets/images/portfolio-mobile-width4.png)
 
 
-![alt text](assets/images/screenshot.png.)
-Example: 
-![alt text](Develop/assets/images/horiseon-module1-screenshot-2.png.)
 
 ## Credits
+
+The images aren't mine. I used pexels.com for the pictures, and the profile pic is also not me as well. I wanted to use a photo that melds well with the rest of the site. As of now, I don't have any good pictures that I can add into my site, but I plan to add my own picture while I continue to work on my portfolio.
 
 I have used Freecodecamp and Codecademy in the past to help to advance my knowledge on the usage of HTML, CSS, Javascript and other frontend languages and have watched videos by professional developers such as Youtubers Web Dev Simplified, Kevin Powell, and Easy Tutorials for extra learning. For web design inspiration, I've browsed websites like awwwards.com, Behance, Dribble, and watched Youtube videos by Futur to learn better web design practices. Learning from all these people and sites have helped me become a better developer and designer, and I still have a lot to learn in my journey. 
 
@@ -30,11 +48,14 @@ I have used Freecodecamp and Codecademy in the past to help to advance my knowle
 
 ## Features
 
-Home Section
-About Section
-Works Section
-Contact Section
-Footer Section
+Home Section / 
+About Section / 
+Works Section / 
+Contact Section / 
+Footer Section / 
+Social links / 
+Animation on home icon / 
+Logo initials animation on hover and scroll
 
 
 
