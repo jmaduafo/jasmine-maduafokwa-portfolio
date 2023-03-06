@@ -28,10 +28,10 @@ $(document).ready(function() {
     $(window).on("scroll", function() {
         
         if ($(window).scrollTop() > 850) {
-            $(".name-logo").css("color", "#FFE9BF");
+            $(".name-logo").css("color", "#D48D22");
            
         } else {
-            $(".name-logo").css("color", "#D48D22");
+            $(".name-logo").css("color", "#FFE9BF");
         }
     })
 
