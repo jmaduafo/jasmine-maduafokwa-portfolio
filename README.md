@@ -54,7 +54,7 @@ Works Section /
 Contact Section / 
 Footer Section / 
 Social links / 
-Animation on home icon / 
+Animation on geometric icon / 
 Logo initials animation on hover and scroll
 
 
