@@ -504,6 +504,10 @@ nav {
     height: 350px;
 }
 
+.works a {
+    color: var(--cream);
+}
+
 .work-image-top {
     flex-basis: 100%;
 }
