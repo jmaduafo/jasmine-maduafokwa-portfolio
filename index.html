@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cormorant+Garamond:wght@300;400;600&family=Karma:wght@300;400;600;700&family=Zilla+Slab:ital,wght@0,400;1,300;1,400&family=Dosis:wght@300;400;600&family=Special+Elite&family=EB+Garamond:wght@400;500;600;700&family=Karla:wght@400;600&family=Merriweather:ital@0;1&family=Open+Sans:wght@300;400;600&family=Playfair+Display:wght@400;600;700&family=Poppins:wght@100;200;300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&family=Macondo+Swash+Caps&display=swap&family=Limelight" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200;1,300;1,400;1,500;1,600;1,900&display=swap&family=Marcellus&family=Italiana" rel="stylesheet">
+    <title>Jasmine Maduafokwa</title>
+</head>
+<body>
+    <div class="container" id="home">
+        <header >
+            <div class="nav-bar">
+                <nav>
+                    <div class="name-logo">
+                        <span>JM</span>
+                    </div>
+                    <div class="nav-right">
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#works">Works</a></li>
+                            <li><a href="#contact-me">Contact</a></li>
+                            <button class="resume"><span id="resume">RESUME</span></button>
+                        </ul>
+                    </div>
+                    <div class="nav-hidden" onclick="menu()">
+                        <div class="top-menu"></div>
+                        <div class="middle-menu"></div>
+                        <div class="bottom-menu"></div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section>
+                <div class="nav-menu-slide">
+                    <div class="nav-menu">
+                        <nav>
+                            <ul>
+                                <li><a href="#home">Home</a></li>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#works">Works</a></li>
+                                <li><a href="#contact-me">Contact</a></li>
+                                <li><a href="#">Resume</a></li>
+                            </ul>
+                            <div class="nav-menu-links">
+                                <a href="https://github.com/jmaduafo" target="_blank"><i class='bx bxl-github bx-sm'></i></a>
+                                <a href="https://www.instagram.com/jazzimanian_devil/" target="_blank"><i class='bx bxl-instagram-alt bx-sm'></i></a>
+                                <a href="https://www.linkedin.com/in/jasmine-maduafokwa-48070a180/" target="_blank"><i class='bx bxl-linkedin-square bx-sm'></i></a>                                
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="home">
+                    <i class='bx bx-mouse bx-md' id="mouse"></i>
+                    <!-- <div class="home-logo">
+                        <img src="./assets/images/portfolio-image3.png" class="jasmine-logo" alt="jasmine logo">
+                        <img src="./assets/images/portfolio-image2.png" class="spin-circle" alt="spinning text">
+                    </div> -->
+                    <div class="home-middle">
+                        <h1>Let's get in <span id="touch">touch</span></h1>
+                        <img src="./assets/images/geometry_home.png" alt="geometry shape logo" class="geometry">
+                        <a href="#contact-me"><button id="contact">CONTACT ME</button></a>
+                    </div>
+                    <div class="home-left">
+                        <div class="github">
+                            <span>GH</span>
+                            <a href="https://github.com/jmaduafo" target="_blank"><i class='bx bxl-github bx-sm'></i></a>
+                        </div>
+                        <div class="dot"></div>
+                        <div class="instagram">
+                            <span>IG</span>
+                            <a href="https://www.instagram.com/jazzimanian_devil/" target="_blank"><i class='bx bxl-instagram-alt bx-sm'></i></a>
+                        </div>
+                        <div class="dot"></div>
+                        <div class="linked-in">
+                            <span>LI</span>
+                            <a href="https://www.linkedin.com/in/jasmine-maduafokwa-48070a180/" target="_blank"><i class='bx bxl-linkedin-square bx-sm'></i></a>
+                        </div>
+                    </div>
+                    <div class="home-bottom">
+                        <div class="web-dev">
+                            <h3>Web Developer</h3>
+                        </div>
+                        <div class="designer">
+                            <h3>Designer</h3>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="about" id="about">
+                    <div class="about-me">
+                        <h3>ABOUT</h3>
+                        <p>I’m <span id="jasmine-m">Jasmine Maduafokwa</span>, a Nigerian-American specializing in both frontend and backend development as well as design. My dream to become a web developer began during COVID, and since then, I’ve been juggling completing my bachelors in science and sneaking in coding and design practice when possible. </p>
+                    </div>
+                    <div class="specialties">
+                        <p>Front End Development</p>
+                        <p>Back End Development</p>
+                        <p>Web Design</p>
+                        <p>Brand Identity</p>
+                    </div>
+                    <div class="about-image">
+                        <img src="./assets/images/about-portrait.jpg" alt="jasmine's photo">
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="works" id="works">
+                    <div class="work-text">
+                        <h3>WORKS</h3>
+                        <p>Throughout my journey as a self-taught web developer, I have grown with each project that I’ve done. I love to learn, and I relish in any opportunity to improve my development and design skills.</p>
+                    </div>
+                    <div class="works-section">
+                        <div class="work-image-top">
+                            <img src="./assets/images/restaurant12.jpg" alt="chef photo">
+                            <div class="case main-case">
+                                <h4>WELLINGTON</h4>
+                            </div>
+                        </div>
+                        <div class="bottom-works">
+                            <div class="other-works1">
+                                <img src="./assets/images/portrait1.jpg">
+                                <div class="case">
+                                    <h4>BLACK GIRL MAGIC</h4>
+                                </div>
+                            </div>
+                            <div class="other-works2">
+                                <img src="./assets/images/mobile-mock2.jpg">
+                                <div class="case">
+                                    <h4>STOCKS PROJECT</h4>
+                                </div>
+                            </div>
+                            <div class="other-works3">
+                                <img src="./assets/images/food5.jpg">
+                                <div class="case">
+                                    <h4>MENU FILTER</h4>
+                                </div>
+                            </div>
+                            <div class="other-works4">
+                                <img src="./assets/images/pixie6.jpg">
+                                <div class="case">
+                                    <h4>DESIREE</h4>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="contact" id="contact-me">
+                    <div class="form-section">
+                        <form>
+                            <label for="name" >NAME: <input type="text" name="name" placeholder="Enter name"></label>
+                            <label for="email" >EMAIL: <input type="email" name="email" placeholder="Enter email"></label>
+                            <label for="message" >MESSAGE: <textarea type="text" name="mesaage" rows="4" cols="10" placeholder="Write a message"></textarea></label>
+                        </form>
+                        <button id="submit">SUBMIT</button>
+                    </div>
+                    <div class="contact-info">
+                        <img src="./assets/images/geometry_home.png" alt="geometry shape logo" class="contact-geometry">
+                        <h3>Contact <span id="m-contact">M</span>e</h3>
+                        <div class="location">
+                            <div class="location-span">
+                                <i class='bx bx-map bx-xs'></i>
+                            </div>
+                            <p>Houston, TX, USA</p>
+                        </div>
+                        <div class="email-address">
+                            <div class="location-span">
+                                <i class='bx bx-envelope bx-xs'></i>
+                            </div>                            
+                            <p>jmaduafokwa@hotmail.com</p>
+                        </div>
+                        <div class="phone-number">
+                            <div class="location-span">
+                                <i class='bx bxs-phone bx-xs'></i>
+                            </div>
+                            <p>+1 8329701998</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="footer">
+                <div class="footer-socials">
+                    <a href="https://github.com/jmaduafo" target="_blank"><i class='bx bxl-github bx-md'></i></a>
+                    <a href="https://www.instagram.com/jazzimanian_devil/" target="_blank"><i class='bx bxl-instagram-alt bx-md'></i></a>
+                    <a href="https://www.linkedin.com/in/jasmine-maduafokwa-48070a180/" target="_blank"><i class='bx bxl-linkedin-square bx-md'></i></a>
+                </div>
+                <div class="footer-nav">
+                    <nav>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#works">Works</a></li>
+                            <li><a href="#contact-me">Contact</a></li>
+                            <li><a href="#">Resume</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="footer-text">
+                    <p>&copy;2023 All rights reserved by Jasmine Maduafokwa</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="./assets/script.js"></script>
+</body>
+</html>
