@@ -35,6 +35,9 @@ This is how the site looks in mobile view for each section:
 
 ![alt text](portfolio/assets/images/portfolio-mobile-width4.png)
 
+Hamburger menu on click:
+
+![alt text](portfolio/assets/images/portfolio-mobile-menu.png)
 
 
 ## Credits
